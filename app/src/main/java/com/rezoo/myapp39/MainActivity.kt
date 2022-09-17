@@ -19,5 +19,6 @@ class MainActivity : AppCompatActivity() {
         }
         val adapter=CoustomAdapter(mlist)
         recyclerView.adapter=adapter
+        Toast.makeText(this,"hihihi",Toast.LENGTH_LONG).show()
     }
 }
